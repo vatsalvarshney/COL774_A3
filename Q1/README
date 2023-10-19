@@ -1,0 +1,34 @@
+The dataset contain following columns: 
+Ignore the first column values
+
+-----
+You have to consider columns from 1-12 as X and 13th column (result) as Y 
+-----
+
+
+1. team: This is the team for which we are pridicting win or loss
+         Categorical attribute having 20 different values eg. India, Australia
+2. opp: Opponent of team
+        Categorical attribute having 20 different values eg. India, Australia
+3. host: Host country 
+        Categorical attribute having 19 different values eg. India, Australia
+4. year: Year of the day_match
+        Continuous attribute having integer values eg: 1980, 2013
+5. month: Month of the match 
+        Categorical attribute having 12 different values eg. Sep, Jul 
+6. toss: Does 'team' won the toss?
+        Categorical attribute having 2 values: 1 if won the toss, 0 if not
+7. day_match: Is match played during day, day-night or night
+        Categorical attribute having 3 values: 0 => day match, 1 => day-night match, 2 => night match
+8. bat_first: Is 'team' batting first?
+        Categorical attribute having 2 values: 1 => batting first, 0 => bowling first
+9. format: T20 or ODI?
+        Categorical attribute having 2 values: 0 => ODI, 1 => T20
+10. fow: Wickets in first innings
+        Continuous attribute having integer values in range {1,2,...,10}
+11. score: Runs scored in first innings
+        Continuous attribute having integer values eg. 190, 275
+12. rpo: Run rate in first innings
+        Continuous attribute having float values eg. 4.5, 7.1
+13. result: Does 'team' won the match?
+        Categorical attribute having 2 values: 0 => team lost, 1 => team won
